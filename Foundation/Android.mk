@@ -40,8 +40,6 @@ LOCAL_SRC_FILES := \
 	DigestEngine.cpp \
 	DigestStream.cpp \
 	DirectoryIterator.cpp \
-	DynamicAny.cpp \
-	DynamicAnyHolder.cpp \
 	Environment.cpp \
 	ErrorHandler.cpp \
 	Event.cpp \
@@ -56,7 +54,6 @@ LOCAL_SRC_FILES := \
 	FormattingChannel.cpp \
 	FPEnvironment.cpp \
 	Glob.cpp \
-	gzio.c \
 	Hash.cpp \
 	HashStatistic.cpp \
 	HexBinaryDecoder.cpp \
@@ -76,7 +73,6 @@ LOCAL_SRC_FILES := \
 	LoggingRegistry.cpp \
 	LogStream.cpp \
 	Manifest.cpp \
-	MD2Engine.cpp \
 	MD4Engine.cpp \
 	MD5Engine.cpp \
 	MemoryPool.cpp \
@@ -103,7 +99,6 @@ LOCAL_SRC_FILES := \
 	pcre_ord2utf8.c \
 	pcre_study.c \
 	pcre_tables.c \
-	pcre_try_flipped.c \
 	pcre_ucd.c \
 	pcre_valid_utf8.c \
 	pcre_xclass.c \
